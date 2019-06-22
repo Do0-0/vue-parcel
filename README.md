@@ -1,20 +1,20 @@
-# param2path
-a tool translate requestparam to pathvalue
+# vue-parcel
+a project build by vue and parcel
 
-## Usage
+## Building
 
-```
-import {param2path} from 'param2path'
-let param = {
-	lon: 123.1232123,
-	lat: 23.2646,
-	name: '广州市'
-}
+Clone git repository:
 
-var path = param2path('http://localhost:8080/projectName/', param)
-// http://localhost:8080/projectName/123.1232123/23.2646/广州市/
-```
+`git clone git@github.com:Do0-0/vue-parcel.git`
 
-## Install
+Install dependencies:
 
-`npm install param2path --save`
+`npm install`
+
+Start project
+
+`npm run start`
+
+Build browser bundle
+
+`npm run build`
